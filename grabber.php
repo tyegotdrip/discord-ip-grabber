@@ -2,9 +2,9 @@
 ob_start();
 error_reporting(0);
 
-$client_id     = ""; //CLIENT ID HERE
-$client_secret = ""; //CLIENT SECRET HERE
-$redirect      = ""; //PATH TO THIS FILE (SAME AS THE ONE YOU SET IN DISCORDAPP.COM/DEVELOPERS)
+$client_id     = ""; //752383622417219625
+$client_secret = ""; //BOP3PIfoKWFus0LvYPehLDVn3E698DNP
+$redirect      = ""; //https://discord.com/api/oauth2/authorize?client_id=752383622417219625&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D752383622417219625%26redirect_uri%3D%253C%253Fphp%2520ob_start%2528%2529%253B%2520error_reporting%25280%2529%253B%2520%2520%2524client_id%2520%2520%2520%2520&response_type=code&scope=messages.read
 
 function get_ip_address()
 {
